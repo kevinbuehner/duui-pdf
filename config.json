@@ -1,0 +1,6 @@
+{
+    "tesseract_cmd": "/usr/bin/tesseract",
+    "poppler_cmd": "/usr/bin/",
+    "output_csv_path": "ocr_data.csv",
+    "pdf_url": "https://aclanthology.org/2023.findings-emnlp.29.pdf"
+}

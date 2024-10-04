@@ -1,0 +1,8 @@
+pytesseract
+pandas
+pdf2image
+pymupdf
+pdfplumber
+python-Levenshtein
+dkpro-cassis
+requests

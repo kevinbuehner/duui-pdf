@@ -1,0 +1,8 @@
+ocr_data.csv
+segmentation.csv
+annotations.xmi
+pdf-src/*
+!pdf-src/tests/
+!pdf-src/tests/**
+.venv/
+src/__pycache__/
