@@ -26,7 +26,6 @@ def get_text(pdf_path: str) -> str:
     # Remove special characters
     text = remove_special_characters(text)
 
-    print(text[6975:7621])
     return text
 
 def pdf_to_base64(path: str) -> str:
@@ -44,7 +43,7 @@ def pdf_to_base64(path: str) -> str:
     return encoded_string
 
 
-def annotate_pdf(processed_data: pd.DataFrame, ocr_data: pd.DataFrame, pdf_file_path: str):
+def annotate_pdf(processed_data: pd.DataFrame, ocr_data: pd.DataFrame, pdf_file_path: str) -> Cas:
     """
     Annotate the Paper using the TypeSystem 'TexttechnologyPaperStructure.xml'.
 
